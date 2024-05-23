@@ -1,0 +1,8 @@
+---
+applications:
+  - name: SimpleIRE_Media
+    memory: 2G
+    random-route: true
+    path: target/SimpleIRE_Media-t1-0.0.1-SNAPSHOT.jar
+    env:
+      JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
